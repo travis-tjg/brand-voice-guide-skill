@@ -10,10 +10,13 @@ This is the only thing we ask the client to do. It goes with page 1 of the guide
 - **Never ask what research already answered.** Never ask the client to describe their voice, their personality or their competitors. Those are our job.
 - **In an industry we don't know well, include a customer item.** It's our draft of who their customer is, for the client to confirm or correct, so they get the final say without writing it themselves.
 - **Dates are one item each.** When a source gives a count ("over 12 years") and no date, draft the date-anchored version and ask for the year.
-- **Silence approves the voice and structure, never the facts.** Unanswered items stay needed and out of copy. So does any answer like "maybe" or "I think so". Page 1 shows a sample line (1.3), so the client has seen the voice they're approving.
-- **Log every answer.** Write it into the ledger and the dates table with the date and how it arrived, for example "client, email 2026-11-03". Update the fact's wording if the client corrected it, then regenerate the proof list.
+- **Silence approves the voice and structure, never the facts.** Unanswered items stay needed and out of copy. So does any answer like "maybe" or "I think so". Page 1 shows a sample line (1.3) and asks whether it sounds like them talking to a customer, so the client has seen the voice they're approving and been asked what doesn't fit.
+- **Log every answer.** Write it into the ledger and the dates table with the date and how it arrived, for example "client, email 2026-11-03". Update the fact's wording if the client corrected it, then regenerate the credentials and awards list.
 - **If there's no reply by the date,** the user books a 15-minute call, goes through page 1 and this sheet on screen, and records it with the client's OK. The recording is the source for each answer.
 - **If the client objects to the voice,** ask which line felt wrong and change the rule behind it, then log it as a ruling in section 9.
+- **Say their name, not "client".** The sheet and the email are read by the business, signed or not. Use the business name or "you". The checker warns on "client".
+- **Quotes from a recording with no on-record OK** can be one item: show the phrase and where it would go, and ask if we may use it. Until they say yes, it stays internal (`client-own-words.md`).
+- **Several programs:** one item per open fact, not per program. If a fact differs by program, the draft says so in one line.
 
 ## Template
 

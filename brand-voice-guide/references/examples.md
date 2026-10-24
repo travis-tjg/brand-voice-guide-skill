@@ -124,6 +124,18 @@ Facts make copy accurate. The voice makes it sound like one company and not the 
 - We sound like "the contractor a property manager can hand a work order to": "Same-day service, Monday to Saturday, 7am to 7pm. Every job starts with a written price you approve." [F03, F04]
 - Why: both are accurate. The role, chosen for each company's customer, sets the rhythm, the warmth and who the sentence is about. Short and plain is a fine voice when it's chosen for the reader; it's a problem when it's the default. A guide that lists only facts leaves the voice to the model, and the model's default is the category's voice.
 
+## A rule as a pair, with its own words (illustrative)
+
+Each 3.4 rule is a pair: the trait, but not the way it goes wrong. Where the owner's own words show a pattern that fits the customer, the rule comes from that pattern, its From line names it, and the 3.6 phrase records what they were talking about.
+
+- 3.6: "I'd rather tell you now than surprise you later." Context: explaining a repair estimate. Feeds: 3.4 rule 1.
+- 3.4 rule 1: **Upfront, but not alarming.** Do: "Before we start, you'll know the price and anything that could change it." Don't: "Before we start, we'll walk you through every way the price could go up, from rotted subfloor to code violations." From: names the price and what could change it before anyone asks (03:10, 14:20, 22:45).
+- Why: the owner talks this way about estimates, so the rule is about price talk, and the phrase is fit for the pricing page or the estimate step. On a page about something else (an about page, a holiday post) it would read as a line pulled out of a call. The Don't is on the same fact and is the near miss a writer chasing "upfront" would produce: so upfront it alarms. "Hidden problems can double your bill!" would teach nothing, because no writer following the rule writes it.
+
+## A page blueprint (illustrative)
+
+- **Service page.** First: what the reader is dealing with (a 2.5 feeling). Beat: problem, then the guide. Proof: the license and the written price (F01, F04) in a strip under the headline, not in it. Poor: "At [Company], we know plumbing problems can be stressful, so our licensed plumbers agree the price with you before any work begins." (what a model writes from the facts alone: accurate, and it could be anyone) Good: "A leak under the sink can wait a day; a soft floor around it can't. We'll tell you which one you have, and the price, before we start." [F04]
+
 ## Patterns that read as AI-written
 
 Whatever the voice, cut these before delivering. Banning a word only pushes a model to its synonym, so these are structures as well as words.

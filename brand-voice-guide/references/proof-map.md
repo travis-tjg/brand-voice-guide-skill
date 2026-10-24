@@ -1,6 +1,6 @@
 # Proof map
 
-The proof map joins the research steps. Each criterion and shopper question maps to the client's specific evidence, then to that evidence's status, then to where it should appear. Build it as a working file at `research/proof-map.md`. Guide sections 4 to 6 and the proof list come from it, so writers never need to load the working file.
+The proof map joins the research steps. Each criterion and shopper question maps to the client's specific evidence, then to that evidence's status, then to where it should appear. Build it as a working file at `research/proof-map.md` (our notes, not a source). Guide sections 4 to 6 and the credentials and awards list come from it, so writers never need to load the working file.
 
 ## Fact statuses
 
@@ -10,12 +10,13 @@ Every fact in the ledger has exactly one status.
 |---|---|---|
 | **public** | Published by the client (site, GBP, their own profiles) or by the body that issues it (license lookup, certifying body's directory, the award's own page). No source conflicts with it. | URL and the date you checked it |
 | **confirmed** | The client said yes, in writing or on a recorded call. | "client, email YYYY-MM-DD" or "client, call YYYY-MM-DD" |
-| **needed** | Anything else: our drafted answers, inferences, facts found only in third-party directories, press, AI answers or an interview transcript where nobody put the fact to the client, facts with conflicting sources, and anything out of date. | Where you saw it and what's missing |
+| **needed** | Anything else: our drafted answers, inferences, facts found only in third-party directories, press, AI answers or a call where nobody put the fact to the client, facts with conflicting sources, and anything out of date. | Where you saw it and what's missing |
 
 How the statuses work in practice:
 - **Writers use public and confirmed facts only.** A needed fact stays out of copy, and that includes hedged versions of it. Writing "decades of experience" because the year isn't confirmed is still using an unconfirmed fact. Use a confirmed fact instead, or leave it out.
 - **Leads are not sources.** Third-party directories, aggregators, AI answers and things the owner mentioned in passing often hold stale or merged data. They can point you to a fact, but they can't make it public. Find it on a public source, or put it on the sign-off sheet.
-- **Old site copy can be wrong.** The client's site counts as public, but copy from an old site or a previous agency can be wrong. If a claim that matters rests only on old marketing copy, confirm it.
+- **Old site copy can be wrong.** The client's site counts as public, but copy from an old site or a previous agency can be wrong. That includes a site we wrote: our copy is only as good as what it was built from. If a claim that matters rests only on marketing copy, confirm it.
+- **Changing facts.** Prices, dates, venues and age groups that change per event or season get one row that points to the source: "Each event's date, venue and price: as on its registration page." Copy takes them from that page at writing time, never from memory or an old event.
 - **Conflicts make a fact needed.** For example, a site saying "28 years" while the license record shows a different first-licensed year. The sign-off sheet item shows both sources and drafts the date-anchored version.
 - **Facts age.** Record the date you checked each one. Before a public fact goes into a press release or a new profile, check it again if that date is more than a year old.
 
@@ -26,7 +27,7 @@ Each ledger row is one fact, worded the way it will appear in copy.
 - **Be specific.** Specific means a stranger could check it, because it names a body, a year, a place, a document or a count with a source. "Experienced", "trusted" and "top quality" can't be checked, so they aren't facts.
 - **Anchor time to a date.** Write "licensed in [State] since 2011", not "14 years". A count goes stale every year, and different profiles end up with different counts. Every time-based fact also gets a row in the dates table (guide 4.2), with one date in one format.
 - **Name credentials exactly as the issuer does,** with the issuer's name and the year.
-- **Keep one fact per row.** Other sections cite the ID instead of restating it, so a correction happens in one place.
+- **Keep one fact per row.** Other sections cite the ID instead of restating it, so a correction happens in one place. An award won in two years is two rows, so each has one date.
 
 **Never upgrade a fact to fit a criterion.** Write what the source says:
 
@@ -37,6 +38,7 @@ Each ledger row is one fact, worded the way it will appear in copy.
 | Has handled this kind of work | "has handled [work] since [year]" | "specialist", "expert" |
 | A rating on a platform | "[rating] stars from [count] Google reviews, [month year]" | "top-rated", "highest-rated" |
 | Named to a list in one year | "named to [list], [year]" | "award-winning" with no year |
+| Holds a job title | "[title as the employer lists it], [employer], since [year]" | a bigger title, or the employer as an endorser |
 | First licensed in a year | "licensed since [year]" | "[n] years doing [this exact service]" |
 
 Engines sometimes draw these distinctions themselves. In our first test run, the engine said membership in an association is not proof of certification. Treat these distinctions as hard lines.
@@ -63,9 +65,9 @@ One row for each criterion or shopper question that applies to the client.
 - **Site pages:** home, service pages, about or team bios, FAQ, contact, schema markup.
 - **GBP fields:** description, services, products, attributes.
 - **Profiles:** the kinds of sources the engines cited (`ai-criteria-research.md`, capture (c)), such as licensing records, industry directories, review sites, associations and award pages.
-- **Other:** press boilerplate, email signature, owned pages that can link back (an association's member page, a speaker bio, a training provider's graduate list).
+- **Other:** press boilerplate, email signature, owned pages that can link back (an association's member page, a BBB page, a speaker bio, a training provider's graduate list).
 
-Put the fact where the criterion matters. A license number belongs on every service page and every profile; a training course belongs on the bio and the service page it relates to.
+Put the fact where the criterion matters. A license number belongs on every service page and every profile; a training course belongs on the bio and the service page it relates to. Proof sits near every headline (a proof strip, a service page sidebar, the footer) but doesn't lead it: the headline starts with the reader.
 
 ## From the map to the guide
 
@@ -76,29 +78,47 @@ Put the fact where the criterion matters. A license number belongs on every serv
 - **Page 1 lead proof points:** the public or confirmed facts behind the criteria with the most runs.
 - **Sign-off sheet:** every "Sheet item" row, in order of how many runs cited the criterion.
 - **Consistent descriptions (section 7):** the same lead proof points, in the same wording.
-- **Proof list:** below.
+- **Credentials and awards (4.3) and the list:** below.
 
-## Proof list export
+## Credentials and awards list
 
-A clean file of the client's proof, separate from the guide, so it can be handed to whoever builds profiles, citations, owned backlinks or schema without loading the whole guide. It is a dated copy of the ledger (SKILL.md, rule 10): regenerate it whenever the ledger changes, and never edit it directly.
+Members of the Mastermind report that AI answers and Google surface credentials; we haven't measured it. Keep them as separate lists (awards; certifications, licenses and credentials; studies, trainings and courses; and memberships, positions and education if useful) and use them in copy, on the bio page's credentials section and on every profile and owned page. Guide section 4.3 sorts each ledger row into a list and names its issuer. The export below is generated from 4.3, 4.1 and 4.2, so whoever builds profiles, citations, owned backlinks or schema doesn't need the whole guide. It is a dated copy (SKILL.md, rule 11): regenerate it whenever the ledger changes, and never edit it directly.
 
-Save it as `proof-list-YYYY-MM-DD.md` beside the guide:
+- **Named exactly.** Each entry is named the way its issuer names it, with the issuer, the date (as in 4.2: a year, or the full date), the source URL and the status.
+- **Paid and vanity awards count** if they're real and named exactly, with the year. Don't mock them, and don't let one be the only credential: if it is, say so to the user and lead with something else.
+- **What counts as a study:** published research, a white paper or a case study someone else reviewed and published.
+- **Where it goes:** the bio page's credentials section, a proof strip or the footer (near the headline, never the headline), profiles (7.5), and owned pages such as an association member page or a BBB page.
+
+Save it as `credentials-and-awards-YYYY-MM-DD.md` beside the guide:
 
 ```markdown
-# [Business name]: proof list
+# [Business name]: credentials and awards
 
 Generated [YYYY-MM-DD] from voice-guide.md version [n]. A dated copy: don't edit it, regenerate it.
 Use public and confirmed rows anywhere. Needed rows are for the client to confirm and never go in copy, profiles or schema.
 
-| ID | Kind | Proof (exact wording) | Issuer | Date | Source | Status | Use for |
-|---|---|---|---|---|---|---|---|
-| F01 | credential | [exact ledger wording] | [issuing body] | [as in 4.2] | [URL] | public | [copy, profiles, schema hasCredential] |
+## Awards
+
+| ID | Name (exact) | Issuer | Date | Source | Status | Use for |
+|---|---|---|---|---|---|---|
+| F02 | [exact ledger wording] | [issuing body] | [as in 4.2] | [URL, as in 4.1] | public | [bio credentials section, footer, award schema] |
+
+## Certifications, licenses and credentials
+
+## Studies, trainings and courses
+
+## Memberships, positions and education
+
+## Drop-in lines
+
+Public and confirmed rows only, ready to paste into a bio page's credentials section, a profile or an owned page.
+- [exact ledger wording], [issuer], [date]
 ```
 
-- **Kind:** award, credential (licenses and certifications), training, study (published research, white papers, case studies the client authored), membership, or education.
-- **Proof, Date, Source, Status:** copied from the ledger and the dates table, word for word. The ID is the ledger ID, and the checker matches every row back to the ledger.
-- **Use for:** where it goes. Common schema properties: `hasCredential` (credentials, trainings), `award`, `memberOf`, `alumniOf`, `knowsAbout`, `areaServed`; the profiles table in 7.5 supplies `sameAs`. A membership or award page that lists the client is also a citation and, often, a link back.
-- **Needed rows** may be listed so the gaps are visible, but they say "needed" and are never used.
+- **ID, Name, Date, Source, Status:** copied from 4.1 and 4.2 word for word; the issuer from 4.3. The checker (`--credentials`) matches every row back to the guide and fails any 4.3 row missing from the list.
+- **Empty lists:** keep the heading and write "None yet."
+- **Use for:** where it goes. Common schema properties: `hasCredential` (certifications, licenses, trainings), `award`, `memberOf`, `alumniOf`, `hasOccupation` (positions), `knowsAbout`; the profiles table in 7.5 supplies `sameAs`. A membership or award page that lists the client is also a citation and, often, a link back.
+- **Needed rows** may be listed so the gaps are visible, but they say "needed", they never go in the drop-in lines, and they are never used.
 
 ## Worked example (illustrative: a plumbing company in [City])
 
